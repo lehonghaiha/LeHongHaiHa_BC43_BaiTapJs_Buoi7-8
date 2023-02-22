@@ -12,31 +12,32 @@
 </head>
 
 <body>
+
     <div class="container">
         <!-- Nhập mảng -->
         <h3>Nhập số nguyên N tạo mảng</h3>
         <div class="bg-body-tertiary">
             <div class="row form-group">
                 <div class="col-3">
-                    <input class="form-control mt-2" type="number" placeholder="Nhập số N">
+                    <input id="num" class="form-control mt-2" type="number" placeholder="Nhập số N" value="">
                 </div>
                 <div class="col-3">
-                    <button class="m-2 btn btn-primary m-0" id="btn-tinh-tien-dien">Thêm số</button>
+                    <button class="m-2 btn btn-primary m-0" id="btn-tao-mang">Thêm số</button>
                 </div>
             </div>
             <p class="alert alert-dark ">
-                => <span id="ket-qua-bai-2"></span>
+                => <span id="hien-thi-mang" class="text-break"></span>
             </p>
         </div>
         <br>
 
 
-        
+
         <!-- BÀI TẬP 1 -->
         <div>
             <h3>BÀI TẬP 1: Tổng số dương</h3>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="width:120px">Tính tổng</button>
+                <button id="btn-bai-1" class="btn btn-primary me-2" style="width:120px">Tính tổng</button>
                 <p class="alert alert-dark w-100 m-0">
                     => <span id="ket-qua-bai-1"></span>
                 </p>
@@ -47,7 +48,7 @@
         <div>
             <h3>BÀI TẬP 2: Đếm số dương</h3>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="width:120px">Đếm số</button>
+                <button id="btn-bai-2" class="btn btn-primary me-2" style="width:120px">Đếm số</button>
                 <p class="alert alert-dark w-100 m-0">
                     => <span id="ket-qua-bai-2"></span>
                 </p>
@@ -58,7 +59,7 @@
         <div>
             <h3>BÀI TẬP 3: Tìm số nhỏ nhất trong mảng</h3>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                <button id="btn-bai-3" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
                 <p class="alert alert-dark w-100 m-0">
                     => <span id="ket-qua-bai-3"></span>
                 </p>
@@ -69,7 +70,7 @@
         <div>
             <h3>BÀI TẬP 4: Tìm số dương nhỏ nhất trong mảng</h3>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                <button id="btn-bai-4" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
                 <p class="alert alert-dark w-100 m-0">
                     => <span id="ket-qua-bai-4"></span>
                 </p>
@@ -80,7 +81,7 @@
         <div>
             <h3>BÀI TẬP 5: Tìm số chẵn cuối cùng</h3>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                <button id="btn-bai-5" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
                 <p class="alert alert-dark w-100 m-0">
                     => <span id="ket-qua-bai-5"></span>
                 </p>
@@ -92,14 +93,14 @@
             <h3>BÀI TẬP 6: Đổi chỗ 2 số nguyên</h3>
             <div class="row form-group m-0 mb-3">
                 <div class="col-3 p-0">
-                    <input id="" type="number" class="form-control w-100" placeholder="Nhập số vị trí 1">
+                    <input id="vi-tri-1" type="number" class="form-control w-100" placeholder="Nhập số vị trí 1">
                 </div>
                 <div class="col-3 mx-2">
-                    <input id="" type="number" class="form-control  w-100" placeholder="Nhập số vị trí 2">
+                    <input id="vi-tri-2" type="number" class="form-control  w-100" placeholder="Nhập số vị trí 2">
                 </div>
             </div>
             <div class="d-flex">
-                <button class="btn btn-primary me-2" style="width:120px">Đổi chỗ</button>
+                <button id="btn-bai-6" class="btn btn-primary me-2" style="width:120px">Đổi chỗ</button>
                 <p class="alert alert-dark w-100 m-0">
                     => <span id="ket-qua-bai-6"></span>
                 </p>
