@@ -13,7 +13,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container mt-4">
         <!-- Nhập mảng -->
         <h3>Nhập số nguyên N tạo mảng</h3>
         <div class="bg-body-tertiary">
@@ -29,151 +29,265 @@
                 => <span id="hien-thi-mang" class="text-break"></span>
             </p>
         </div>
-        <br>
+        
 
 
-
-        <!-- BÀI TẬP 1 -->
-        <div>
-            <h3>BÀI TẬP 1: Tổng số dương</h3>
-            <div class="d-flex">
-                <button id="btn-bai-1" class="btn btn-primary me-2" style="width:120px">Tính tổng</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-1"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 2 -->
-        <div>
-            <h3>BÀI TẬP 2: Đếm số dương</h3>
-            <div class="d-flex">
-                <button id="btn-bai-2" class="btn btn-primary me-2" style="width:120px">Đếm số</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-2"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 3 -->
-        <div>
-            <h3>BÀI TẬP 3: Tìm số nhỏ nhất trong mảng</h3>
-            <div class="d-flex">
-                <button id="btn-bai-3" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-3"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 4 -->
-        <div>
-            <h3>BÀI TẬP 4: Tìm số dương nhỏ nhất trong mảng</h3>
-            <div class="d-flex">
-                <button id="btn-bai-4" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-4"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 5 -->
-        <div>
-            <h3>BÀI TẬP 5: Tìm số chẵn cuối cùng</h3>
-            <div class="d-flex">
-                <button id="btn-bai-5" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-5"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 6 -->
-        <div>
-            <h3>BÀI TẬP 6: Đổi chỗ 2 số nguyên</h3>
-            <div class="row form-group m-0 mb-3">
-                <div class="col-3 p-0">
-                    <input id="vi-tri-1" type="number" class="form-control w-100" placeholder="Nhập số vị trí 1">
-                </div>
-                <div class="col-3 mx-2">
-                    <input id="vi-tri-2" type="number" class="form-control  w-100" placeholder="Nhập số vị trí 2">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!-- BÀI TẬP 1: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4>BÀI TẬP 1: Tổng số dương</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-1" class="btn btn-primary me-2" style="width:120px">Tính
+                                    tổng</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-1"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="d-flex">
-                <button id="btn-bai-6" class="btn btn-primary me-2" style="width:120px">Đổi chỗ</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-6"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 7 -->
-        <div>
-            <h3>BÀI TẬP 7: Sắp xếp tăng dần</h3>
-            <div class="d-flex">
-                <button id="btn-bai-7" class="btn btn-primary me-2" style="width:120px">Sắp xếp</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-7"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 8 -->
-        <div>
-            <h3>BÀI TẬP 8: Tìm số nguyên tố đầu tiên</h3>
-            <div class="d-flex">
-                <button id="btn-bai-8" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-8"></span>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <!-- BÀI TẬP 9 -->
-        <div>
-            <h3>BÀI TẬP 9: ĐẾM SỐ NGUYÊN</h3>
-            <div class="row form-group">
-                <div class="col-3">
-                    <input id="num-bai-9" class="form-control mt-2" type="number" placeholder="Nhập số N">
-                </div>
-                <div class="col-3">
-                    <button class="m-2 btn btn-primary m-0" id="btn-tao-mang-bai-9">Thêm số</button>
+
+            <!-- BÀI TẬP 2: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                        <h4>BÀI TẬP 2: Đếm số dương</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-2" class="btn btn-primary me-2" style="width:120px">Đếm số</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-2"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <p class="alert alert-dark ">
-                => <span id="hien-thi-mang-bai-9"></span>
-            </p>
-            <div class="d-flex">
-                <button id="btn-bai-9" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-9"></span>
-                </p>
+            
+            <!-- BÀI TẬP 3: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                        <h4>BÀI TẬP 3: Tìm số nhỏ nhất trong mảng</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-3" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 4: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                        <h4>BÀI TẬP 4: Tìm số dương nhỏ nhất trong mảng</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-4" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-4"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 5: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                        <h4>BÀI TẬP 5: Tìm số chẵn cuối cùng</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-5" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-5"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 6: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                        <h4>BÀI TẬP 6: Đổi chỗ 2 số nguyên</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="row form-group m-0 mb-3">
+                                <div class="col-3 p-0">
+                                    <input id="vi-tri-1" type="number" class="form-control w-100"
+                                        placeholder="Nhập số vị trí 1">
+                                </div>
+                                <div class="col-3 mx-2">
+                                    <input id="vi-tri-2" type="number" class="form-control  w-100"
+                                        placeholder="Nhập số vị trí 2">
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <button id="btn-bai-6" class="btn btn-primary me-2" style="width:120px">Đổi chỗ</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-6"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 7: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                        <h4>BÀI TẬP 7: Sắp xếp tăng dần</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-7" class="btn btn-primary me-2" style="width:120px">Sắp xếp</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-7"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 8: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                        <h4>BÀI TẬP 8: Tìm số nguyên tố đầu tiên</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-8" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-8"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 9: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                        <h4>BÀI TẬP 9: Đếm số nguyên</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="row form-group">
+                                <div class="col-3">
+                                    <input id="num-bai-9" class="form-control mt-2" type="number"
+                                        placeholder="Nhập số N">
+                                </div>
+                                <div class="col-3">
+                                    <button class="m-2 btn btn-primary m-0" id="btn-tao-mang-bai-9">Thêm số</button>
+                                </div>
+                            </div>
+                            <p class="alert alert-dark ">
+                                => <span id="hien-thi-mang-bai-9"></span>
+                            </p>
+                            <div class="d-flex">
+                                <button id="btn-bai-9" class="btn btn-primary me-2" style="width:120px">Tìm số</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-9"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI TẬP 10: -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                        <h4>BÀI TẬP 10: So sánh số lượng số âm và dương</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div>
+                            <div class="d-flex">
+                                <button id="btn-bai-10" class="btn btn-primary me-2" style="width:120px">So
+                                    sánh</button>
+                                <p class="alert alert-dark w-100 m-0">
+                                    => <span id="ket-qua-bai-10"></span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-        <hr>
-        <!-- BÀI TẬP 10 -->
-        <div>
-            <h3>BÀI TẬP 10: So sánh số lượng số âm và dương</h3>
-            <div class="d-flex">
-                <button id="btn-bai-10" class="btn btn-primary me-2" style="width:120px">So sánh</button>
-                <p class="alert alert-dark w-100 m-0">
-                    => <span id="ket-qua-bai-10"></span>
-                </p>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

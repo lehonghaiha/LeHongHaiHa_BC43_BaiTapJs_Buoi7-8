@@ -156,8 +156,7 @@ document.getElementById('btn-bai-9').onclick = function () {
 //Bài 10: So sánh số lượng số âm và số dương
 document.getElementById('btn-bai-10').onclick = function(){
     //input: arrNum
-    //Output: ketQua
-    var ketQua = '';
+    //Output: String   
     //process:
     var soSoDuong = demSoDuong(arrNum);
     var soSoAm = demSoAm(arrNum);
@@ -169,4 +168,5 @@ document.getElementById('btn-bai-10').onclick = function(){
         document.getElementById('ket-qua-bai-10').innerHTML = 'Số dương < số âm';
     }
 }
-    
+var test = 2.2%2;
+console.log(test);

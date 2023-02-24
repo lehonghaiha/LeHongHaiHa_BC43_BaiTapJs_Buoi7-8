@@ -26,7 +26,11 @@ function demSoDuong(arr) {
     }
     return output;
 }
-
+/**
+ * Hàm đếm số lượng số âm có trong mảng
+ * @param {*} arr mảng người dùng nhập vào
+ * @returns số lượng số âm
+ */
 function demSoAm(arr) {
     var output = 0;
     for (var index = 0; index < arr.length; index++) {
@@ -119,7 +123,7 @@ function kiemTraSoNguyenTo(num) {
 
     var output = true;
     var uoc = 2;
-    if (num <= 1) {
+    if (num <= 1|| Number.isInteger(num)===false) {
         output = false;
     } else {
         while (uoc <= Math.sqrt(num)) {
