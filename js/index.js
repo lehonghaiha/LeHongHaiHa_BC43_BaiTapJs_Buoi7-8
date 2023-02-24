@@ -37,11 +37,9 @@ document.getElementById('btn-bai-3').onclick = function () {
     //input: arrNum
     //output: ketQua (number)
     var ketQua = '';
-    //process
+    //process    
     ketQua = timSoNhoNhat(arrNum);
-
     document.getElementById('ket-qua-bai-3').innerHTML = 'Số nhỏ nhất của mảng là: ' + ketQua;
-
 }
 
 //Bài tập 4: tìm số dương nhỏ nhất trong mảng
@@ -142,31 +140,29 @@ document.getElementById('btn-bai-9').onclick = function () {
     //process:
     //Đếm số lượng
     for (var index = 0; index < arrNumBai9.length; index++) {
-        var output =Number.isInteger(arrNumBai9[index]);
+        var output = Number.isInteger(arrNumBai9[index]);
         if (output === true) {
             ketQua += 1;
         }
     }
     //In kết quả:
-    
+
     document.getElementById('ket-qua-bai-9').innerHTML = 'Số lượng số nguyên của mảng là: ' + ketQua;
 
 }
 
 //Bài 10: So sánh số lượng số âm và số dương
-document.getElementById('btn-bai-10').onclick = function(){
+document.getElementById('btn-bai-10').onclick = function () {
     //input: arrNum
     //Output: String   
     //process:
     var soSoDuong = demSoDuong(arrNum);
     var soSoAm = demSoAm(arrNum);
-    if (soSoDuong>soSoAm){
+    if (soSoDuong > soSoAm) {
         document.getElementById('ket-qua-bai-10').innerHTML = 'Số dương > số âm';
-    } else if (soSoDuong===soSoAm){
+    } else if (soSoDuong === soSoAm) {
         document.getElementById('ket-qua-bai-10').innerHTML = 'Số dương = số âm';
     } else {
         document.getElementById('ket-qua-bai-10').innerHTML = 'Số dương < số âm';
     }
 }
-var test = 2.2%2;
-console.log(test);
